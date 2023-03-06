@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+.navbar{
+    background-color: white;
+}
+a.nav-link{
+    color:black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    
+     text-decoration: none;
+     background-color: rgb(242, 242, 242);
+  /* border: 3px solid #000000;
+  border-radius: 120px; */
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #000000;
+}
+a.nav-link:hover{
+    background-color: rgb(24, 23, 23);
+    
+    box-shadow: 0 0 4px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 2px solid #00d7c3;
+   
+}
+a.nav-item:hover{
+    color:white;
+    
+    box-shadow: 0 0 4px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 2px solid #00d7c3;
+}
+.navbar-brand{
+    font-size:1.25rem;
+    font-weight: 800;
+    color:black;
+    text-decoration: none;
+}
+.main{
+    background: url("nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg")no-repeat;
+    background-size: cover;
+    width:100%;
+    height:90vh;
+    color:white;
+    
+}
+.main h3{
+    font-size:3.4rem;
+    font-weight: 600;
+}
+.main h6{
+    font-size:2.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    width:50%;
+}
+.main .bt1{
+    height: 55px;
+    width:138px;
+    background-color:rgb(97, 161, 239) ;
+    color:white;
+    outline: none;
+    border:none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 3px solid #00d7c3;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: white;
+
+}
+.main .bt1:hover{
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+}
+.about img{-webkit-box-shadow: -64px 67px 45px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: -64px 67px 45px 0px rgba(0,0,0,0.3);
+    box-shadow: -64px 67px 45px 0px rgba(0,0,0,0.3);
+border-radius: 45%;
+}
+.about h1{
+   font-size:3rem;
+   font-weight:  900; 
+}
+.progress{
+    background-color: rgb(218, 198, 198);
+
+justify-content: flex-start;
+border-radius: 150px;
+align-items: center;
+position: relative;
+display: flex;
+height: 125px;
+width: 100%;
+
+-webkit-box-shadow: 10px 10px 45px 0px rgba(0,0,0,0.26);
+-moz-box-shadow: 10px 10px 45px 0px rgba(0,0,0,0.26);
+box-shadow: 10px 10px 45px 0px rgba(0,0,0,0.26);
+
+
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height:25px;
+    width:0;
+}
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height:25px;
+    width:0;
+}.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height:25px;
+    width:0;
+
+}.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height:25px;
+    width:0;
+}
+.pro-value5{
+    animation: load5 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height:25px;
+    width:0;
+}
+.progress p{
+    color:rgb(247, 241, 241);
+    padding:5px;
+}
+@keyframes load1{
+    0%{width:0;}
+    100%{width:90%}
+}
+@keyframes load2{
+    0%{width:0;}
+    100%{width:95%}
+}@keyframes load3{
+    0%{width:0;}
+    100%{width:70%}
+}@keyframes load4{
+    0%{width:0;}
+    100%{width:80%}
+}
+@keyframes load5{
+    0%{width:0;}
+    100%{width:80%}
+}
+.about .btn1{
+    height: 45px;
+    width:128px;
+    
+    outline: none;
+   
+    font-weight: bold;
+    background-color: black;
+    border: 3px solid #00d7c3;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: rgb(246, 237, 237);
+}
+
+.about .btn1:hover{
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+}
+
+.carousel-item{
+    height: 300px;
+    width:70%;
+    color:rgb(53, 47, 47);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.carousel img{
+    background-size: cover;
+    opacity: 80%;
+}
+.carousel-caption h5{
+ 
+    font-size:3.4rem;
+    font-weight: 600;
+    color:black;
+}  
+.carousel p{
+    color:rgb(53, 47, 47);
+    font-size: 1.5rem;
+    font-weight: 600;
+} 
+
+.car-btn{
+    background-color:rgb(97, 161, 239) ;
+    color:white;
+    outline: none;
+    border:none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 3px solid #00d7c3;
+    border-radius: 150px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: rgb(40, 13, 13);
+
+}
+
+.car-btn:hover{
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+}
+
+.pro h1{
+    
+   font-size:3rem;
+   font-weight:  900; 
+}
+.services h1{
+    
+   font-size:3rem;
+   font-weight:  900; 
+}
+.card{
+    border: none;
+    outline: none;
+    -webkit-box-shadow: -16px 10px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -16px 10px 40px 0px rgba(0,0,0,0.75);
+box-shadow: -16px 10px 40px 0px rgba(0,0,0,0.75);
+
+}
+
+.card p{
+    color:gray;
+}
+.circle{
+    height: 75px;
+    width:75px;
+    background-color: rgb(187, 180, 180);
+    color:black;
+    padding:12px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.card:hover .circle{
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+
+}
+.connect h1{
+    
+   font-size:3rem;
+   font-weight:  900; 
+}
+.connect .card{
+    
+    border: none;
+    outline: none;
+    -webkit-box-shadow: -16px 10px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -16px 10px 40px 0px rgba(0,0,0,0.75);
+box-shadow: -16px 10px 40px 0px rgba(0,0,0,0.75);
+border-radius: 20px;
+
+}
