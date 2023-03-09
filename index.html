@@ -545,7 +545,20 @@ Projects
 
 
     </section>
-
+<footer class="bg-dark text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(192, 187, 187, 0.2); color:white">
+    <span id="date"> </span>
+    <a class="text-light" href="https://mdbootstrap.com/">https://neeshar.netlify.app/</a>
+    <br>
+    
+    <a class="text-light" href="#">Go To Top</a>
+    <br>
+    <span id="time"></span>
+  </div>
+  <!-- Copyright -->
+</footer>
+   
    
 
     <script src="https://code.jquery.com/jquery-3.6.3.js"
@@ -570,6 +583,15 @@ Projects
     <script>
       AOS.init();
     </script>
+    <script>
+  var d=new Date();
+  var year=d.getFullYear();
+  var time=d.getHours();
+  var time2=d.getMinutes();
+  var time3=d.getSeconds();
+  document.getElementById("date").innerHTML=`© ${year} Copyright:`;
+  document.getElementById("time").innerHTML=`Time ${time}:${time2}:${time3}`;
+</script>
 </body>
 
 </html>
