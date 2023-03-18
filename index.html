@@ -609,7 +609,8 @@ Projects
   var time3=d.getSeconds();
   document.getElementById("date").innerHTML=`© ${year} Copyright:`;
   function livetime(){
-      document.getElementById("time").innerHTML=`Time ${time}:${time2}:${time3}`;
+    let time = new Date().toLocaleTimeString();
+      document.getElementById("time").innerHTML=`Time {time}`;
   }
       setInterval(livetime,1000);
 </script>
