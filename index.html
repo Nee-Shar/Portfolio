@@ -608,7 +608,10 @@ Projects
   var time2=d.getMinutes();
   var time3=d.getSeconds();
   document.getElementById("date").innerHTML=`© ${year} Copyright:`;
-  document.getElementById("time").innerHTML=`Time ${time}:${time2}:${time3}`;
+  function livetime(){
+      document.getElementById("time").innerHTML=`Time ${time}:${time2}:${time3}`;
+  }
+      setInterval(livetime,1000);
 </script>
 </body>
 
